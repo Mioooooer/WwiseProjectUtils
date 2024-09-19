@@ -1,0 +1,17 @@
+{
+    "version":2,
+    "commands":[
+        {
+            "id":"Izumi_Wwise_SoundbankReplace",
+            "displayName":"SoundbankReplace",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\FileReplace.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--SoundbankPath ..\\..\\GeneratedSoundBanks",
+            "cwd":"${WwiseProjectAddons}\\Commands",
+            "mainMenu":{
+                    "basePath":"IzumiCustom"
+                }
+        }
+    ]
+}
