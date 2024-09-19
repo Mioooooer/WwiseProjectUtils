@@ -1,0 +1,21 @@
+{
+    "version":2,
+    "commands":[
+        {
+            "id":"Izumi_Wwise_LoudnessCheckAll",
+            "displayName":"LoudnessCheckAll",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseCheckingTool.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--Integrated --Momentary --ShortTerm --LRA --TruePeak",
+            "cwd":"",
+            "contextMenu":{
+                    "basePath":"IzumiCustom",
+                    "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
+                },
+            "mainMenu":{
+                    "basePath":"IzumiCustom"
+                }
+        }
+    ]
+}

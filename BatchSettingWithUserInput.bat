@@ -1,0 +1,2 @@
+set /P InputValue="Set value to: "
+%~dp0/BatchSetting.exe --property MaxSoundPerInstance --value %InputValue% --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment

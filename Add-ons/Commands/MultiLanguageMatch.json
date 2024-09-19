@@ -1,0 +1,21 @@
+{
+    "version":2,
+    "commands":[
+        {
+            "id":"Izumi_Wwise_MultiLanguageMatch",
+            "displayName":"MultiLanguageMatch",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\MultiLanguageMatch.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--targetTypeList WorkUnit Folder ActorMixer SwitchContainer RandomSequenceContainer BlendContainer",
+            "cwd":"",
+            "contextMenu":{
+                    "basePath":"IzumiCustom",
+                    "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer"
+                },
+            "mainMenu":{
+                    "basePath":"IzumiCustom"
+                }
+        }
+    ]
+}
