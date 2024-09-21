@@ -127,7 +127,10 @@ def batchCheckLoudness(waapiClient, IDList, property, value):
             originalFilePath = getSingleInfoBy(waapiClient, child, "originalFilePath")
             if originalFilePath == None:
                 if getSingleInfoBy(waapiClient, child, "type") == "MusicTrack":
-                    originalFilePath = GetMusicOriginalFilePath(waapiClient, child)
+                    try:
+                        originalFilePath = GetMusicOriginalFilePath(waapiClient, child)
+                    except Exception as e:
+                        continue
                 else:
                     continue
             FinalLoudness = checkFuncDict[property](originalFilePath)
