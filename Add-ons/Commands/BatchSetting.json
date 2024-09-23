@@ -10,11 +10,11 @@
             "args":"--property IsStreamingEnabled --value True --targetTypeList Sound MusicTrack",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/Streaming",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/Streaming"
                 }
         },
         {
@@ -26,11 +26,11 @@
             "args":"--property IsStreamingEnabled --value False --targetTypeList Sound MusicTrack",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/Streaming",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/Streaming"
                 }
         },
         {
@@ -42,11 +42,11 @@
             "args":"--property IgnoreParentMaxSoundInstance --value True --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -58,11 +58,11 @@
             "args":"--property IgnoreParentMaxSoundInstance --value False --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -74,11 +74,11 @@
             "args":"--property UseMaxSoundPerInstance --value True --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -90,11 +90,11 @@
             "args":"--property UseMaxSoundPerInstance --value False --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -106,11 +106,11 @@
             "args":"--property IsGlobalLimit --value 0 --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -122,11 +122,11 @@
             "args":"--property OverLimitBehavior --value 0 --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -138,11 +138,11 @@
             "args":"--property OverLimitBehavior --value 1 --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -154,11 +154,11 @@
             "args":"--property MaxReachedBehavior --value 0 --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/Priority",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/Priority"
                 }
         },
         {
@@ -170,11 +170,11 @@
             "args":"--property MaxReachedBehavior --value 1 --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/Priority",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/Priority"
                 }
         },
         {
@@ -186,11 +186,11 @@
             "args":"--property IsGlobalLimit --value 1 --recursionFalse --targetTypeList Sound MusicTrack ActorMixer SwitchContainer RandomSequenceContainer BlendContainer MusicSwitchContainer MusicPlaylistContainer MusicSegment",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         },
         {
@@ -202,11 +202,11 @@
             "args":"",
             "cwd":"",
             "contextMenu":{
-                    "basePath":"IzumiCustom",
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit",
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,Sound,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Batch/PlaybackLimit"
                 }
         }
     ]

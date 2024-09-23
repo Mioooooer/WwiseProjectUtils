@@ -2,15 +2,15 @@
     "version":2,
     "commands":[
         {
-            "id":"Izumi_Wwise_LoudnessCheckAll",
-            "displayName":"LoudnessCheckAll",
+            "id":"Izumi_Wwise_StatisticExport",
+            "displayName":"StatisticExport",
             "defaultShortcut":"",
             "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
             "startMode":"SingleSelectionSingleProcess",
-            "args":"--Integrated --Momentary --ShortTerm --LRA --TruePeak --LoudnessCheck",
+            "args":"--Integrated --Momentary --ShortTerm --LRA --TruePeak --Statistic",
             "cwd":"",
             "mainMenu":{
-                    "basePath":"IzumiCustom/Loudness"
+                    "basePath":"IzumiCustom/Statistic"
                 }
         }
     ]

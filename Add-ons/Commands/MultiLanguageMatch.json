@@ -14,7 +14,7 @@
                     "enabledFor":"WorkUnit,Folder,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer"
                 },
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/MultiLanguage"
                 }
         }
     ]

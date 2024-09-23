@@ -10,7 +10,7 @@
             "args":"--SoundbankPath ..\\..\\GeneratedSoundBanks",
             "cwd":"${WwiseProjectAddons}\\Commands",
             "mainMenu":{
-                    "basePath":"IzumiCustom"
+                    "basePath":"IzumiCustom/Generate"
                 }
         }
     ]
