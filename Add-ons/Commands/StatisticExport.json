@@ -2,8 +2,8 @@
     "version":2,
     "commands":[
         {
-            "id":"Izumi_Wwise_StatisticExport",
-            "displayName":"StatisticExport",
+            "id":"Izumi_Wwise_StatisticExportAll",
+            "displayName":"StatisticExportAll",
             "defaultShortcut":"",
             "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
             "startMode":"SingleSelectionSingleProcess",
@@ -11,6 +11,66 @@
             "cwd":"",
             "mainMenu":{
                     "basePath":"IzumiCustom/Statistic"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Statistic_Loudness-I",
+            "displayName":"Statistic_Loudness-I",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--Integrated --Statistic",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Statistic_Loudness-M",
+            "displayName":"Statistic_Loudness-M",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--Momentary --Statistic",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Statistic_Loudness-S",
+            "displayName":"Statistic_Loudness-S",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--ShortTerm --Statistic",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Statistic_LRA",
+            "displayName":"Statistic_LRA",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--LRA --Statistic",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Statistic_TruePeak",
+            "displayName":"Statistic_TruePeak",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--TruePeak --Statistic",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
                 }
         }
     ]

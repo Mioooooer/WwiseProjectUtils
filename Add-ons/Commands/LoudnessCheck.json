@@ -12,6 +12,66 @@
             "mainMenu":{
                     "basePath":"IzumiCustom/Loudness"
                 }
+        },
+        {
+            "id":"Izumi_Wwise_Check_Loudness-I",
+            "displayName":"Check_Loudness-I",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--Integrated --LoudnessCheck",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Check_Loudness-M",
+            "displayName":"Check_Loudness-M",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--Momentary --LoudnessCheck",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Check_Loudness-S",
+            "displayName":"Check_Loudness-S",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--ShortTerm --LoudnessCheck",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Check_LRA",
+            "displayName":"Check_LRA",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--LRA --LoudnessCheck",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
+        },
+        {
+            "id":"Izumi_Wwise_Check_TruePeak",
+            "displayName":"Check_TruePeak",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\WwiseStatistic.exe",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"--TruePeak --LoudnessCheck",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Loudness"
+                }
         }
     ]
 }

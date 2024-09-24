@@ -121,9 +121,9 @@ def cutPrefixLevel(name, level, splitter):
 
 
 def batchCheckLoudness(waapiClient, IDList, property, value):
-    xlsxSheetNameDict = dict(Integrated = "LoudnessRule-I",
-                        Momentary = "LoudnessRule-M",
-                        ShortTerm = "LoudnessRule-S",
+    xlsxSheetNameDict = dict(Integrated = "Loudness-I",
+                        Momentary = "Loudness-M",
+                        ShortTerm = "Loudness-S",
                         Lra = "LRA",
                         TruePeak = "TruePeak")
     checkFuncDict = dict(Integrated = get_single_loudness_integrated,
@@ -330,9 +330,12 @@ def makeStatistic(waapiClient, statisticList):
             ws.cell(row = row, column = 1, value = key)
             ws.cell(row = row, column = 2, value = listAverage(value))
     wb.remove(wsEmpty)
-    projectName = os.path.basename(projectPath)[:-4]
+    projectName = ".".join(os.path.basename(projectPath).split(".")[:-1])
+    projectPath = os.path.dirname(projectPath)
+    if not os.path.exists(os.path.join(projectPath, "Add-ons\\Statistic")):
+        os.makedirs(os.path.join(projectPath, "Add-ons\\Statistic"))
     now = datetime.now()
-    fileName = projectName + "_Statistic" + now.strftime("%Y-%m-%d_%H-%M-%S.%f")
+    fileName = projectName + "_Statistic_" + now.strftime("%Y-%m-%d_%H-%M-%S.%f") + ".xlsx"
     xlsxPath = os.path.join(projectPath, "Add-ons\\Statistic", fileName)
     wb.save(xlsxPath)
 
@@ -340,10 +343,12 @@ def mergeDictFromList(targetList):
     resultDict = dict()
     for itemDict in targetList:
         if itemDict != None:
+            propertyName = itemDict.pop("_propertyName")
             for key, value in itemDict.items():
                 if resultDict.get(key) == None:
                     resultDict[key] = []
                 resultDict[key] += value
+            resultDict["_propertyName"] = propertyName
     if len(resultDict) == 0:
         return None
     return resultDict
@@ -405,7 +410,7 @@ try:
         except BaseException as e:
             print(f'unexpectation: {e}')
 
-        property = dict(Integrated = args.Integrated,
+        property = dict(Integrated = True,#args.Integrated,
                         Momentary = args.Momentary,
                         ShortTerm = args.ShortTerm,
                         Lra = args.LRA,
@@ -422,7 +427,7 @@ try:
             logChannel = LogChannel,
             prefixLevel = PrefixLevel,
             loudnessCheck = args.LoudnessCheck,
-            statistic = args.Statistic
+            statistic = True#args.Statistic
         )
         recursion = True
         client.call("ak.wwise.core.log.addItem", {"channel": "general", "severity": "Message", "message": "WwiseStatistic running"})
