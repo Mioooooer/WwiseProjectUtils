@@ -410,7 +410,7 @@ try:
         except BaseException as e:
             print(f'unexpectation: {e}')
 
-        property = dict(Integrated = True,#args.Integrated,
+        property = dict(Integrated = args.Integrated,
                         Momentary = args.Momentary,
                         ShortTerm = args.ShortTerm,
                         Lra = args.LRA,
@@ -427,7 +427,7 @@ try:
             logChannel = LogChannel,
             prefixLevel = PrefixLevel,
             loudnessCheck = args.LoudnessCheck,
-            statistic = True#args.Statistic
+            statistic = args.Statistic
         )
         recursion = True
         client.call("ak.wwise.core.log.addItem", {"channel": "general", "severity": "Message", "message": "WwiseStatistic running"})
