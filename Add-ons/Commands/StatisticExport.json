@@ -22,7 +22,7 @@
             "args":"--Integrated --Statistic",
             "cwd":"",
             "mainMenu":{
-                    "basePath":"IzumiCustom/Loudness"
+                    "basePath":"IzumiCustom/Statistic"
                 }
         },
         {
@@ -34,7 +34,7 @@
             "args":"--Momentary --Statistic",
             "cwd":"",
             "mainMenu":{
-                    "basePath":"IzumiCustom/Loudness"
+                    "basePath":"IzumiCustom/Statistic"
                 }
         },
         {
@@ -46,7 +46,7 @@
             "args":"--ShortTerm --Statistic",
             "cwd":"",
             "mainMenu":{
-                    "basePath":"IzumiCustom/Loudness"
+                    "basePath":"IzumiCustom/Statistic"
                 }
         },
         {
@@ -58,7 +58,7 @@
             "args":"--LRA --Statistic",
             "cwd":"",
             "mainMenu":{
-                    "basePath":"IzumiCustom/Loudness"
+                    "basePath":"IzumiCustom/Statistic"
                 }
         },
         {
@@ -70,7 +70,7 @@
             "args":"--TruePeak --Statistic",
             "cwd":"",
             "mainMenu":{
-                    "basePath":"IzumiCustom/Loudness"
+                    "basePath":"IzumiCustom/Statistic"
                 }
         }
     ]
