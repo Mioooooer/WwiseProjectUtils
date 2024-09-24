@@ -147,6 +147,8 @@ def batchCheckLoudness(waapiClient, IDList, property, value):
             else:
                 continue
         FinalLoudness = checkFuncDict[property](originalFilePath)
+        if FinalLoudness == float("-inf"):
+            continue
         #FinalRTPCRangeMin = 0
         #FinalRTPCRangeMax = 0
         target = child
