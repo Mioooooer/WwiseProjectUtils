@@ -72,6 +72,18 @@
             "mainMenu":{
                     "basePath":"IzumiCustom/Statistic"
                 }
+        },
+        {
+            "id":"Izumi_Wwise_StatisticExportAnyLevel",
+            "displayName":"StatisticExportAnyLevel",
+            "defaultShortcut":"",
+            "program":"${WwiseProjectAddons}\\Commands\\StatisticExportAnyLevel.bat",
+            "startMode":"SingleSelectionSingleProcess",
+            "args":"",
+            "cwd":"",
+            "mainMenu":{
+                    "basePath":"IzumiCustom/Statistic"
+                }
         }
     ]
 }
